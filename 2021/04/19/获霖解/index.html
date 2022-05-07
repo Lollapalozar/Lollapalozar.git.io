@@ -85,7 +85,7 @@
 <meta name="generator" content="Hexo 6.1.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="HengfengZhu" type="application/atom+xml">
-</head> 
+<script src="/assets/js/DPlayer.min.js"></script></head> 
 
 <body class="page-template page-template-user page-template-page-analytics page-template-userpage-analytics-php page page-id-1297 chinese-font serif isWebKit">
   <!-- Dynamic sliders -->
@@ -481,6 +481,7 @@
 </font><li><font face="libian sc" color="#2F4F4F" size="6">神回，天與雲與我所共適，上下即白。歸去，往來盈盈處，兩三人而已。</font></li>
 </ul>
 <p><img src="https://blog-source-1311232349.file.myqcloud.com/image/image-article/%E8%8E%B7%E9%9C%96%E8%A7%A3.png" alt="图1"></p>
+<div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://blog-source-1311232349.file.myqcloud.com/image/music-video/video/fate-hollow_converted.mp4"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
 
         </div>
 
@@ -746,7 +747,9 @@ gitalk.render('gitalk-container')
               <img src="https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/disqus-preloader.svg">
           </div>
         </div>
-          
+        <div id="music-player">
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=2000 height=450 src="//music.163.com/outchain/player?type=0&id=7422560188&auto=0&height=430"></iframe>
+        </div>  
         <!-- 网站数据统计 -->
         <div class="footer-device">
           <p style="font-family: 'Ubuntu', sans-serif;">
@@ -1289,9 +1292,7 @@ gitalk.render('gitalk-container')
 </div>
 
 
-<div id="music-player">
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="//music.163.com/outchain/player?type=0&id=7422560188&auto=1&height=90"></iframe>
-</div>
+
 
 <!-- <script src="http://www.cnjbk.cn/usr/themes/Cuteen/assets/js/Cuteen_Main.js"></script> -->
 <script>
@@ -1406,39 +1407,21 @@ gitalk.render('gitalk-container')
 <style>
     #RightDownBtn {
         position: fixed;
-        right: 3rem;
-        bottom: 0rem;
+        left: 1.875rem;
+        bottom: 1.875rem;
         padding: 0.3125rem 0.625rem;
         background: #fff;
         border-radius: 0.1875rem;
         box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .4);
         transition: 0.3s ease all;
         z-index: 1000;
-        align-items: center;
-        flex-direction: row;
+        align-items: flex-end;
+        flex-direction: column;
         display: -moz-flex;
         display: flex;
         float: right;
     }
-    #music-player {
-        position: fixed;
-        left: 0rem;
-        bottom: 1.875rem;
-        padding: 0rem 0rem;
-        background: #fff;
-        border-radius: 0.875rem;
-        box-shadow: 0 0 0.3125rem rgba(0, 0, 0, .4);
-        transition: 0.3s ease all;
-        z-index: 1000;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        flex-direction: column;
-        flex-wrap: wrap
-        display: -moz-flex;
-        display: flex;
-        float: right;
-    } 
+    
     
     #RightDownBtn>a,
     #RightDownBtn>label {
