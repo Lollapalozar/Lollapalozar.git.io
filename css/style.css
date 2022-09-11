@@ -1255,7 +1255,7 @@ html {
 body {
     background: #fff;
     background-attachment: fixed;
-    cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/normal.cur), auto
+    cursor: url(https://blog-source-1311232349.file.myqcloud.com/image/cursor/zhu-normal.cur), auto
 }
 
 blockquote:before,
@@ -9216,7 +9216,7 @@ a.toc-link {
     padding: 2px;
     text-shadow: none;
     border-radius: 0 0 5px 5px;
-    cursor: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/cursor/texto.cur), auto
+    cursor: url(https://blog-source-1311232349.file.myqcloud.com/image/cursor/zhu-texto.cur), auto
 }
 
 .highlight-wrap code[data-rel]:before {
