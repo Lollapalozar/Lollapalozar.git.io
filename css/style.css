@@ -1111,7 +1111,7 @@ h6 {
 p {
     margin-bottom: 1.5em;
     font-size: 15px;
-    cursor: url(https://blog-source-1311232349.file.myqcloud.com/image/cursor/zhu-texto.cur), auto
+    cursor: url(https://blog-source-1311232349.file.myqcloud.com/image/cursor/cursor-zhu-texto.ani), auto
 }
 
 dfn,
@@ -1255,7 +1255,7 @@ html {
 body {
     background: #fff;
     background-attachment: fixed;
-    cursor: url(https://blog-source-1311232349.file.myqcloud.com/image/cursor/zhu-normal.cur), auto
+    cursor: url(https://blog-source-1311232349.file.myqcloud.com/image/cursor/cursor-zhu-normal.ani), auto
 }
 
 blockquote:before,
@@ -9216,7 +9216,7 @@ a.toc-link {
     padding: 2px;
     text-shadow: none;
     border-radius: 0 0 5px 5px;
-    cursor: url(https://blog-source-1311232349.file.myqcloud.com/image/cursor/zhu-texto.cur), auto
+    cursor: url(https://blog-source-1311232349.file.myqcloud.com/image/cursor/cursor-zhu-texto.ani), auto
 }
 
 .highlight-wrap code[data-rel]:before {
